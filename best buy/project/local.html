@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+
+<html>
+
+<link rel="stylesheet" type="text/css" href="style.css">
+<link href='http://fonts.googleapis.com/css?family=Merienda+One' rel='stylesheet' type='text/css'>
+
+
+<title>
+    Blackjack
+</title>
+
+<body>
+
+
+    <head>
+        <h1>
+            <i>BLACKJACK</i>
+        </h1>
+        <h4>
+            Computers Cards:
+            <input type="text" id="computerscards">
+            <br>Player 1 cards:
+            <input type="text" id="playerscards">
+        </h4>
+    </head>
+
+    <input type="button" value="start" onclick="document.getElementById('playerscards').value = 
+    random();document.getElementById('computerscards').value = 18">
+
+
+    <input type="button" value="deal" onclick="document.getElementById('playerscards).value ="dealcard">
+
+    <input type="button" value="stand" onclick="">
+
+    <input type="button" value="next" onclick="">
+
+
+    <p>Press hit if you would like to draw another card
+        <br> press stand if you do not wish to draw another card
+        <br> press next if you want to start the next round</p>
+
+
+</body>
+
+
+
+</html>
+<script>
+var total = 
+var randomnumber = Math.floor(Math.random() * 10 + 1); 
+
+function random() { 
+    return randomnumber; 
+} 
+
+function dealcard() { } 
+</script>
